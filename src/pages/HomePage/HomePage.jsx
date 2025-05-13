@@ -14,7 +14,7 @@ useEffect(() => {
 
   return (
     <div>
-        <CreateNoteForm />
+        <CreateNoteForm setCarts={setCarts}/>
         <ProductList cart={cart}/>
     </div>
   )
